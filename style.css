@@ -1,0 +1,175 @@
+body {
+  height: 100%;
+}
+
+/* ヘッダー */
+
+header{
+  width: 100%;
+}
+
+.header-logo img{
+  height: 100px;
+  width: 300px;
+  padding: 20px;
+}
+
+.header-menu {
+  float: left;
+  width: 100%;
+  height: 60px;
+  line-height: 30px;
+  background-color: black;
+}
+
+.header-list li{
+  float: left;
+  font-size: 15px;
+  list-style: none;
+  color: white;
+  padding-left: 50px;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+/* 左ボディ */
+
+.leftside h1 {
+  border-left:5px solid black;
+  border-bottom: 5px solid gray;
+}
+
+section.leftside {
+  width: 70%;
+  float: left;
+  margin-bottom: 60px;
+}
+
+.leftside > img {
+  width: 95%;
+  height: auto;
+}
+
+.contents {
+  width: 93%;
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-left: 20px;
+  float: left;
+}
+
+.contents-list img{
+  width: 90%;
+  height: auto;
+}
+
+.contents-list p {
+  position: relative;
+  left: -10px;
+  text-align: center;
+}
+
+.contents-list > li {
+  position: relative;
+  left: -20px;
+  width: 25%;
+  height: auto;
+  list-style: none;
+  float: left;
+}
+/* 右ボディ */
+
+section.rightside {
+  width: 30%;
+  float: left;
+  padding-top: 40px;
+}
+
+.rightside h3 {
+  border-bottom: 2px dotted black;
+}
+
+.rightside li {
+  list-style: none;
+}
+
+/* フッター */
+
+footer {
+  clear: left;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  line-height: 60px;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-left: 4px red solid;
+  background-color:#f1f1f1;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  width: 95%;
+  font-size: 20px;
+}
+
+form {
+  margin: 0 auto;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  width: 95%;
+}
+
+form div {
+  padding: 15px;
+}
+
+.text,textarea,.dropdown {
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  color: #999;
+  background: #fff;
+}
+
+.submit {
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+}
+
+/* 掲示板 */
+.kiji {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  width: 100%;
+}
+
+.kiji > h3 {
+  border-bottom: 2px solid lightgray;
+}
+
+.kiji-contents {
+  margin: 5px;
+  padding-bottom: 5px;
+}
+
+.handlename {
+  font-size: 12px;
+}
